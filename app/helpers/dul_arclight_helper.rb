@@ -12,7 +12,7 @@ module DulArclightHelper
   end
 
   def ask_rubenstein_url
-    base_url = 'https://rubenstein.libanswers.com/index'
+    base_url = ''
     [base_url, { referrer: request.original_url }.to_param].join('?')
   end
 end
