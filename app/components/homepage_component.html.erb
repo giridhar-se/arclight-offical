@@ -6,7 +6,7 @@
     <div class="imgback imgback-image col-md-5 col-lg-6 col-xl-7 hidden-sm-down"
         data-controller="homepage-feature"
         style="background-image: url(<%= feature_img_url(@random_feature['image']) %>)">
-      <div class="feature-caption"><%= @random_feature['caption_html'].html_safe %></div>
+      <div class="feature-caption" hidden><%= @random_feature['caption_html'].html_safe %></div>
     </div>
 
     <div class="col-md-7 col-lg-6 col-xl-5 rl-menu-title">
@@ -54,7 +54,7 @@
     </div>
     <div class="col-md-5">
       <h2><%= t('dul_arclight.home.catalog.heading') %></h2>
-      <p>Not all of the Rubenstein's collections are described on this site. <a href="https://find.library.duke.edu/?f_inclusive%5Blocation_hierarchy_f%5D%5B%5D=duke%3Adukeruby&amp;f_inclusive%5Blocation_hierarchy_f%5D%5B%5D=duke%3Adukeunis&amp;search_field=all_fields&amp;q=&amp;f%5Blocation_hierarchy_f%5D%5B%5D=" class="underlined-link">Search the catalog</a> to find additional manuscripts, rare books, and other items held in the Rubenstein.</p>
+      <p>Not all of the Rubenstein's collections are described on this site. <a href="" class="underlined-link">Search the catalog</a> to find additional manuscripts, rare books, and other items held in the Rubenstein.</p>
 
       <h2><%= t('dul_arclight.home.ask.heading') %></h2>
       <p>Need help or have questions? Contact a librarian or archivist for more information.</p>
