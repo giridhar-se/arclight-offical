@@ -16,6 +16,10 @@ run_command = docker run --rm -v "$(shell pwd):/opt/app-root" $(BUILD_TAG)
 build:
 	$(DOCKER_COMPOSE) build --no-cache
 
+.PHONY: build-app
+build-app: 
+	$(DOCKER_COMPOSE) build $(APP_SERVICE)
+
 #
 .PHONY : clean
 clean:
