@@ -14,7 +14,7 @@
         <%# DUL CUSTOMIZATION: EAD %>
         <tr>
           <th scope="row">EAD ID (XML)</th>
-          <td>
+          <td hidden>
             <%= link_to collection_id,
                   [solr_document_path(collection_id), 'xml'].join('/'),
                   target: '_blank',
