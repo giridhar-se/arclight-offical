@@ -77,7 +77,7 @@ en:
           indexed_terms_field: |
             Click on terms below to find related finding aids on this site. For other related
             materials in the Duke University Libraries, search for these terms in the
-            <a href="https://find.library.duke.edu/">Catalog</a>.
+            <a href="">Catalog</a>.
         sidebar:
           collection_title: Collection
           collection_info_icon_label: Advanced collection info
