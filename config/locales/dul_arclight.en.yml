@@ -6,11 +6,12 @@ en:
       about:
         heading: About This Site
         text_html: |
-          Use this portal to search and explore finding aids, also called collection guides.
-          Finding aids describe collections of primary sources and other unique, original, or
-          rare materials held at Duke University's Rubenstein Library. Materials include
-          manuscripts, letters, organizational records, photographs, audio visual recordings,
-          oral histories, objects, zines, digital materials, and much more.
+          This searchable database makes available records, manuscripts, rare books, photographs, 
+          recordings and other forms of historical information that have been created by individuals, 
+          families and organizations over time. The information has been collected and 
+          preserved by the Richard L. D. and Marjorie J. Morse Department of Archives and Special Collections 
+          and is related to the department’s collecting strengths of the consumer movement, cookery, Kansas life and culture, 
+          and Kansas State University history
       catalog:
         heading: Find More in the Catalog
       ask:
